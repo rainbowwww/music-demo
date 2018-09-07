@@ -53,8 +53,11 @@ body{
 .newSong.active{
     background: #d4d4d4;
 }
-.songList{
+#songList-contanier{
     flex-grow: 1;
+}
+.songList{
+
     text-align: left;
     border-top: 1px solid #333;
 }
@@ -70,7 +73,7 @@ body{
 .uploadArea{
 
 }
-.dragable{
+.draggable{
     text-align: center;
     padding:20px ;
     border: 2px dashed #ddd;
